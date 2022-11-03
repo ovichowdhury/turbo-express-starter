@@ -7,34 +7,39 @@ Please go through the readme of typeorm-v2 Branch
 ## Commands
 
 ### Development Start
-``` bash
+
+```bash
 yarn dev
 ```
 
 ### Build Project
-``` bash
+
+```bash
 yarn build
 ```
 
 ### Production Start
-``` bash
+
+```bash
 yarn start
 ```
 
 ## Database Migration Commands
 
-
 ### Generate Migration
-``` bash
+
+```bash
 yarn migration:generate ./src/database/migration/NameOfMigration
 ```
 
 ### Run Migration (Optional)
-``` bash
+
+```bash
 yarn migration:run
 ```
 
 ### Revert Migration
-``` bash
+
+```bash
 yarn migration:revert
 ```

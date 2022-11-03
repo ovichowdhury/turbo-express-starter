@@ -13,6 +13,15 @@
     },
     "test": {
       "outputs": []
+    },
+    "format": {
+      "outputs": []
+    },
+    "check:format": {
+      "outputs": []
+    },
+    "check:types": {
+      "outputs": []
     }
   }
 }
