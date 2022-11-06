@@ -6,7 +6,7 @@
   "author": "Nahid Chowdhury",
   "license": "MIT",
   "engines": {
-    "node": ">=16 <=18"
+    "node": ">=16 <=19"
   },
   "scripts": {
     "start": "cross-env NODE_PATH=./dist && cross-env NODE_ENV=production && node --unhandled-rejections=strict ./dist/server.js",
