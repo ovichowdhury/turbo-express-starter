@@ -61,6 +61,32 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 npx turbo link
 ```
 
+### Deployment
+
+#### Make Docker Network
+
+```
+sudo make network
+```
+
+#### Build Docker Containers
+
+```
+sudo make build
+```
+
+#### Run Docker Containers
+
+```
+sudo make up
+```
+
+#### Start in dev mode
+
+```
+sudo make dev
+```
+
 ## Useful Links
 
 Learn more about the power of Turborepo:
